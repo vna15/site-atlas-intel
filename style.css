@@ -162,7 +162,8 @@ html{
 }
 
 .grid-practices div{
-    padding: 1.2rem 1.2rem 3rem 1.2rem;
+    margin-top: 2rem;
+    padding: 1.4rem 1.2rem 3rem 1.2rem;
     position: relative;
 }
 
