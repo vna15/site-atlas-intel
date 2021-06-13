@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="foto-logo-atlas.png">
+</head>
+<body>
+    
+   <header class="header-menu">
+        <nav class="menu">
+            <div class="logo">
+                <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                <a href="#init">AtlasIntel</a>
+            </div>
+            <div class="links">
+                <a href="#practices">Practices</a>
+                <a href="#tools">Tools</a>
+                <a href="#">Our Team</a>
+                <a href="#">Media</a>
+                <a href="#">Contact</a>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+   </header>
+
+   <main>
+        <section class="front-page">
+            <div id="init"></div>
+            <div class="front-text">
+                <h1>Big Data, Big Ideas</h1>
+                <p> We develop big data solutions that empower decision-making, strategic planning, and risk management</p>
+            </div>
+        </section>
+
+        <section class="practices">
+            <div id="practices"></div>
+            <div class="practices-main">
+                <h1>Practices</h1>
+                <p>Atlas Intelligence provides customized big data and technology
+                   solutions for solving complex business challenges 
+                </p>
+            </div>
+            <div class="grid-practices-absolute">
+                <div class="grid-practices">
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Management Consulting</h2>
+                        <p>Thought partners for senior management dealing with major
+                            strategic decisions.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Political Risk</h2>
+                        <p>Data-driven solutions for world-class political risk analysis.</p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Polling Tools</h2>
+                        <p>Scientific tools for analysing consumer insights in real time.</p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Forecasting</h2>
+                        <p>Predictive models for strategic decision-making & risk readiness.</p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Blockchain</h2>
+                        <p>Advanced encryption technologies.</p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Data Dashboards</h2>
+                        <p>Versatile dashboards & visualizations helping you extract
+                            key insights from huge data-sets.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>Social Media Intel</h2>
+                        <p>Granular indicator and micro-targeting tools for understanding
+                            and improving your social media impact and ad spend.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="foto-logo-atlas.png" alt="Logo Atlas Intel">
+                        <h2>App development</h2>
+                        <p>End-to-end development of mobile solutions</p>
+                    </div>
+                </div>
+            </div>
+           <a href="#">see more details</a>
+        </section>
+
+        <section class="partners">
+            <div class="partners-main">
+                <h1>Partners</h1>
+            </div>
+            <div class="grid-partners-absolute">
+                <div class="grid-partners">
+                    <div><img src="aws.png" alt="AWS logo"></div>
+                    <div><img src="google.png" alt="Google logo"></div>
+                    <div><img src="msdse.png" alt="MSDSE logo"></div>
+                    <div><img src="lemann.png" alt="Fundação Lemann logo"></div>
+                    <div><img src="humanitas.png" alt="Humanitas logo"></div>
+                    <div><img src="columbia.png" alt="Columbia logo"></div>
+                    <div><img src="harvardlab.png" alt="Harvard Lab logo"></div>
+                    <div><img src="harvard.png" alt="Harvard logo"></div>
+                    <div><img src="elpais.png" alt="El País logo"></div>
+                    <div><img src="valor.png" alt="Valor logo"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tools">
+            <div id="tools"></div>
+            <div class="grid-tools-absolute">
+                <div class="grid-tools">
+                    <div>
+                        <h2>Tracking Pro</h2>
+                        <p>Proprietary high-frequency polling that enables you to be the first to know when public opinion shifts and the likelihood of political outcomes changes.</p>
+                        <a href="#">view</a>
+                    </div>
+                    <div>
+                        <h2>Atlas Monitor</h2>
+                        <p>Atlas Monitor is a customizable social media intelligence tool that provides granular monitoring of businesses, organizations, topics, political campaigns, etc.</p>
+                        <a href="#">view</a>
+                    </div>
+                    <div>
+                        <h2>Public Polls</h2>
+                        <p>Nationally representative polls conducted by AtlasIntel using its proprietary data collection technology and post-stratification algorythms.</p>
+                        <a href="#">view</a>
+                    </div>
+                    <div>
+                        <h2>Atlas Político</h2>
+                        <p>Atlas Político is a political transparency platform that empowers citizens to keep their politicians accountable.</p>
+                        <a href="#">view</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+   </main>
+
+    <script>
+        document.addEventListener('scroll', () => {
+            const scrolled = window.scrollY;
+            if(scrolled > 600){
+                document.querySelector('.header-menu').classList.add('header-menu-color');
+            }
+            else{
+                document.querySelector('.header-menu').classList.remove('header-menu-color');
+            }
+        });
+    </script>
+
+</body>
+</html>
