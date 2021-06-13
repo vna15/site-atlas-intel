@@ -211,10 +211,10 @@ html{
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .practices{
-        height: 200vh;
+        height: 210vh;
     }
     .practices a{
-        top: 90%;
+        top: 93%;
     }
     .grid-practices-absolute{
         top: 24%;
@@ -237,7 +237,7 @@ html{
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     .practices{
-        height: 250vh;
+        height: 280vh;
     }
     .practices a{
         top: 95%;
